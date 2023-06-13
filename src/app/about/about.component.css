@@ -1,0 +1,72 @@
+.hero-banner_title {
+  color: black;
+  font-size:70px;
+  font-weight: 600;
+  padding: 0 20px;
+  position: absolute;
+  text-align: center;
+  top: -17%;
+  transform: translateY(-50%);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: -1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Stile per la sezione About Me */
+footer .col-lg-4 h4 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+footer .col-lg-4 p {
+  color: #fff;
+}
+
+/* Stile per la sezione Contact Me */
+footer .col-lg-4 ul.list-unstyled li {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+footer .col-lg-4 ul.list-unstyled li i {
+  margin-right: 5px;
+}
+
+/* Stile per la sezione Follow Me */
+footer .col-lg-4 ul.list-inline.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer .col-lg-4 ul.list-inline.social-icons li a {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Stile per il testo di copyright */
+footer .col-lg-12.text-center p {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Stile per l'immagine del profilo */
+.container img {
+  border-radius: 50%;
+}
+
+/* Stile per il titolo principale */
+.hero-banner_title {
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* Stile per il testo principale */
+.container .lead {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}

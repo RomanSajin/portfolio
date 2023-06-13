@@ -1,0 +1,84 @@
+/* Stile generale */
+body {
+  background-color: #111111;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #ff5500;
+}
+
+/* Stile del pulsante */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff5500;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff7700;
+}
+
+/* Stile delle icone */
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Stile delle sezioni */
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.section .content {
+  display: flex;
+  align-items: center;
+}
+
+.section .content img {
+  margin-right: 10px;
+}
+
+/* Stile del footer */
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Stile del link nel footer */
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ff5500;
+}
